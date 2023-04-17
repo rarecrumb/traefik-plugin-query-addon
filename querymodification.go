@@ -1,4 +1,4 @@
-package traefik_plugin_query_modification
+package traefik_plugin_query_addon
 
 import (
 	"context"
