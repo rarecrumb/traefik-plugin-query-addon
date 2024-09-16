@@ -1,11 +1,12 @@
-package traefik_plugin_query_modification_test
+package traefik_plugin_query_addon_test
 
 import (
 	"context"
-	traefik_plugin_query_modification "github.com/kingjan1999/traefik-plugin-query-modification"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	traefik_plugin_query_modification "github.com/rarecrumb/traefik-plugin-query-addon"
 )
 
 // region Test Add
@@ -55,7 +56,7 @@ func TestAddQueryParam_Previous(t *testing.T) {
 
 // endregion
 
-//region Delete
+// region Delete
 func TestDeleteQueryParam(t *testing.T) {
 	cfg := traefik_plugin_query_modification.CreateConfig()
 	cfg.Type = "delete"

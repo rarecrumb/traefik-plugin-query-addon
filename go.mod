@@ -1,3 +1,3 @@
-module github.com/kingjan1999/traefik-plugin-query-modification
+module github.com/rarecrumb/traefik-plugin-query-addon
 
-go 1.14
+go 1.20
